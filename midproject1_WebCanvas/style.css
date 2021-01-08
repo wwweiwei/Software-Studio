@@ -1,0 +1,108 @@
+h1 {
+  color: rgb(0,0,0);
+  font-weight: bold;
+} 
+
+.transbox {
+  background-color: #ffffff;
+  opacity: 0.7;
+  filter: alpha(opacity=60); 
+}
+
+#container{
+  border: 2px solid rgb(255, 255, 255);
+  width: 100%;
+  background-image: url("background01.gif");
+  background-size: 300px 80px;
+}
+#art{
+  border: 2px solid #000;
+  float: left;
+}
+#tool_box {
+  border: 1px solid #DBDBDB);
+ 
+  float: left;
+  width: 200px;
+  height: 705px;
+  background-color: #DBDBDB;
+}
+.command_box{
+  border: 2px solid #DBDBDB;
+  width: 190px;
+  float: left;
+  margin-top: 10px;
+
+}
+body{
+  background-color #92a8d1; 
+  cursor:crosshair;
+}
+
+
+#reset {
+  margin-top: 10px;
+  margin-left: 5px;
+  float: left;
+}
+.command{
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: outset;
+  text-align: center;
+}
+.thickness {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: outset;
+  text-align: center;
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#green {
+  background-color: green;
+}
+#purple {
+  background-color: purple;
+}
+#yellow {
+  background-color: yellow;
+}
+#orange {
+  background-color: orange;
+}
+#pink {
+  background-color: pink;
+}
+#black {
+  background-color: black;
+}
+#white {
+ background-color: white;
+}
+#ebebeb {
+  background-color: #ebebeb;
+  margin-right: 20px;
+}
+
+
+#redo {
+  margin-right: 20px;
+}
